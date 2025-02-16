@@ -67,4 +67,9 @@ The solution is implemented in vPlate.java and below is the screenshot of the re
 ![ Screenshot ](<img/Assignment 1.png>)
 
 **Brief Explanation**
-1.
+1. Predefine each cities code and the name of the city accordingly.
+2. Input the city code.
+3. The program will check whether the city code and the city name matched through looping.
+4. Display the result.
+
+## 3.2 Asssignment 2
