@@ -3,7 +3,7 @@
 | NIM | 244107020140 |
 | NAME | Muhammad Rizki |
 | CLASS | TI - 1I |
-| REPO | |
+| REPO | [link] (https://github.com/emrizky1/2ndSemester) |
 
 # JOBSHEET 1 Programming Fundamental Review
 
