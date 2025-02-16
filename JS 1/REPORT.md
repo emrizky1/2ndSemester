@@ -73,3 +73,19 @@ The solution is implemented in vPlate.java and below is the screenshot of the re
 4. Display the result.
 
 ## 3.2 Asssignment 2
+
+The solution is implemented in cubeCalculator.java and below is the screenshot of the result.
+
+![ Screenshot ](img/Assignment2.png)
+
+**Brief Explanation**
+1. Input the option.
+2. If 1 is selected, then the program wil ask you to enter the length of the cube and then it will show the volume of the cube.
+3. if 2 is selected, then the program will ask you to enter the length of the cube and then it will show the surface area of the cube.
+4. If 3 is selected, then the program will ask you to enter the length of the cube and then it will show the perimeter of the cube.
+5. if 4 is selected, the program will stop.
+
+## 3.3 Assignment 3
+
+The solution is implemented in schedule.java and below is the screenshot of the result.
+
