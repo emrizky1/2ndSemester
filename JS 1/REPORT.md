@@ -81,11 +81,26 @@ The solution is implemented in cubeCalculator.java and below is the screenshot o
 **Brief Explanation**
 1. Input the option.
 2. If 1 is selected, then the program wil ask you to enter the length of the cube and then it will show the volume of the cube.
-3. if 2 is selected, then the program will ask you to enter the length of the cube and then it will show the surface area of the cube.
+3. If 2 is selected, then the program will ask you to enter the length of the cube and then it will show the surface area of the cube.
 4. If 3 is selected, then the program will ask you to enter the length of the cube and then it will show the perimeter of the cube.
-5. if 4 is selected, the program will stop.
+5. If 4 is selected, the program will stop.
 
 ## 3.3 Assignment 3
 
 The solution is implemented in schedule.java and below is the screenshot of the result.
 
+![ Screenshot ](img/1.png)
+![ Screenshot ](img/2.png)
+![ Screenshot ](img/3.png)
+![ Screenshot ](img/4.png)
+![ Screenshot ](img/5.png)
+![ Screenshot ](img/6.png)
+
+**Brief Explanation**
+1. Input the option.
+2. If 1 is selected, the user can input a course and the details regarding it (sks, semester, day).
+3. If 2 is selected, the program will display all courses that have been inputted by the user.
+4. If 3 is selected, the user can search courses based on their day of lecture.
+5. If 4 is selected, the user can search courses based on their semester.
+6. If 5 is selected, the user can input course name and the detail regarding it will be displayed by the program.
+7. If 6 is selected, the program stop.
