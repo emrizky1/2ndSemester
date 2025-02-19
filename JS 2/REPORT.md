@@ -59,10 +59,29 @@ The solution is implemented in Course20.java and CourseMain and below is the scr
 2. Inside course20.java, make attributes and methods design for object that we want to make.
 3. Make another file named CourseMain.java for making the object.
 4. inside CourseMain.java, there are 2 ways to make an object.
-5. The first one is making an object using standart constructor (constructor without any parameter) by input className.objectName = new className(). But, we need to input the details like in the screenshot below
-6. The second one is making an object using constructor with parameter by input className.objectName = new className(parameter).
+5. The first one is making an object using standart constructor (constructor without any parameter) by input Course20.objectName = new Course20(). But, we need to input the details like in the screenshot below
+6. The second one is making an object using constructor with parameter by input Course20.objectName = new Course20(parameter).
 7. If we want to call any methods in the class, we need to input objectName.methodsName()
 
 **Screenshot**
 1. ![ Screenshot ](img/7.png)
 2. ![ Screenshot ](img/8.png)
+
+## Assignment 2
+
+The solution is implemented in Lecturer20.java and LecturerMain and below is the screenshot of the result.
+
+![ Screenshot ](img/9.png)
+
+**Brief Explanation**
+1. Make Lecturer20.java for class
+2. Inside Lecturer20.java, make attributes and methods design for object that we want to make.
+3. Make another file named LecturerMain.java for making the object.
+4. inside LecturerMain.java, there are 2 ways to make an object.
+5. The first one is making an object using standart constructor (constructor without any parameter) by input Lecturer20.objectName = new Lecturer20(). But, we need to input the details like in the screenshot below
+6. The second one is making an object using constructor with parameter by input Lecturer20.objectName = new Lecturer20(parameter).
+7. If we want to call any methods in the class, we need to input objectName.methodsName()
+
+**Screenshot**
+1. ![ Screenshot ](img/10.png)
+2. ![ Screenshot ](img/11.png)
