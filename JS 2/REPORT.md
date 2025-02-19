@@ -47,3 +47,12 @@ To acces methods of an object is by typing objectName.methodName(). You can inpu
 5. The screenshot of the code and the result are below:
 ![ Screenshot ](img/5.png)
 ![ Screenshot ](img/4.png)
+
+## Assignment 1
+
+The solution is implemented in Course20.java and CourseMain and below is the screenshot of the result.
+
+![ Screenshot ](img/6.png)
+
+**Brief Explanation**
+1. 
