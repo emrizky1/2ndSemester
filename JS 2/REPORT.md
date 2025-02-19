@@ -55,4 +55,14 @@ The solution is implemented in Course20.java and CourseMain and below is the scr
 ![ Screenshot ](img/6.png)
 
 **Brief Explanation**
-1. 
+1. Make course20.java for class
+2. Inside course20.java, make attributes and methods design for object that we want to make.
+3. Make another file named CourseMain.java for making the object.
+4. inside CourseMain.java, there are 2 ways to make an object.
+5. The first one is making an object using standart constructor (constructor without any parameter) by input className.objectName = new className(). But, we need to input the details like in the screenshot below
+6. The second one is making an object using constructor with parameter by input className.objectName = new className(parameter).
+7. If we want to call any methods in the class, we need to input objectName.methodsName()
+
+**Screenshot**
+![ Screenshot ](img/7.png)
+![ Screenshot ](img/8.png)
