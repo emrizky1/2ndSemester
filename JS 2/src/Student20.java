@@ -1,4 +1,4 @@
-public class Mahasiswa20 {
+public class Student20 {
     String studentID;
     String name;
     String className;
@@ -16,10 +16,10 @@ public class Mahasiswa20 {
     }
 
     void updateGPA(double newGpa) {
-        if (gpa > 4 && gpa < 0) {
-            gpa = newGpa;
-        } else {
+        if (gpa > 4.0 || gpa < 0.0) {
             System.out.println("Invalid IPK. Must be between 0.0 and 4.0");
+        } else {
+            gpa = newGpa;
         }
     }
 

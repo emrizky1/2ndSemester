@@ -7,7 +7,7 @@
 
 # JOBSHEET 2 Object
 
-## 2.1.2 Verification Experiment Result
+## 2.1.2 Verification of Experiment Result
 
 ![ Screenshot ](img/1.png)
 
@@ -18,6 +18,15 @@
 Characterictic of Class: General.
 2. It has 4 attributes: String studentID, String name, String className, double gpa.
 3. It has 4 methods: print, changeClass, updateGPA, evaluate.
-4. Add if statement to check if ipk > 4 & ipk < 0. Also add an error statement when it is out of range.
+4. Add if statement to check if ipk > 4 / ipk < 0. Also add an error statement when it is out of range.
 5. The program uses the gpa score to evaluates student performances. The program will return String value and the result will be depend on the student's gpa score.
 
+## 2.2.2 Verification of Experiment Result
+
+![ Screenshot ](img/2.png)
+
+## 2.2.3 Questions
+
+**Answers**
+1. Student20 student1 = new Student20();. The name of the created object is student1
+2. 
