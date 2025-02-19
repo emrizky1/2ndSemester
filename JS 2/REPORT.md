@@ -64,5 +64,5 @@ The solution is implemented in Course20.java and CourseMain and below is the scr
 7. If we want to call any methods in the class, we need to input objectName.methodsName()
 
 **Screenshot**
-![ Screenshot ](img/7.png)
-![ Screenshot ](img/8.png)
+1. ![ Screenshot ](img/7.png)
+2. ![ Screenshot ](img/8.png)
