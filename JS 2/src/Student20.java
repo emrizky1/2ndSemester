@@ -4,6 +4,17 @@ public class Student20 {
     String className;
     double gpa;
 
+    public Student20() {
+    
+    }
+
+    public Student20(String id, String name, String cls, double gpa) {
+        studentID = id;
+        this.name = name;
+        className = cls;
+        this.gpa = gpa;
+    }
+
     void print() {
         System.out.println("Student ID: " + studentID);
         System.out.println("Name: " + name);
