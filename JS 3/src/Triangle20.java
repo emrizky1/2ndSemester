@@ -1,8 +1,8 @@
-public class Triangle {
+public class Triangle20 {
     public int base;
     public int height;
 
-    public Triangle(int a, int t) {
+    public Triangle20(int a, int t) {
         base = a;
         height = t;
     }

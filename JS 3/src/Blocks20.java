@@ -1,7 +1,7 @@
-public class Blocks {
+public class Blocks20 {
     public int width, length, height;
 
-    public Blocks(int p, int l, int h) {
+    public Blocks20(int p, int l, int h) {
         length = p;
         width = l;
         height = h;
