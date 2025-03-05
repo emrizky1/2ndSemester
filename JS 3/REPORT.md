@@ -59,6 +59,6 @@ you could see the program in Lecturer20.java, LecturerData20.java, and LecturerD
 ![ Screenshot ](img/10.png)
 
 **LecturerDemo20**
-1. This is for inputting the data of the lecturer and also calling all the parameters inside the LecturerData20 for processing what we've just inputted.
+1. This is for inputting the data of the lecturer and also calling all the methods inside the LecturerData20 for processing what we've just inputted.
 
 ![ Screenshot ](img/11.png)
