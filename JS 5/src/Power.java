@@ -6,10 +6,10 @@ public class Power {
         exponent = e;
     }
 
-    int PowerBF(int n, int e) {
+    int PowerBF() {
         int result = 1;
-        for (int i = 0; i < e; i++) {
-            result = result*n;
+        for (int i = 0; i < exponent; i++) {
+            result = result*baseNumber;
         }
         return result;
     }

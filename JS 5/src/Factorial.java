@@ -1,8 +1,10 @@
 public class Factorial {
     int factorialBF(int n) {
         int facto = 1;
-        for (int i = 1; i <= n; i++) {
-            facto = facto * i;
+        int i = 1; // make sure the iteration start from 1
+        while (i <= n) {
+            facto = facto * i; // the calculation
+            i++; // increment i
         }
         return facto;
     }

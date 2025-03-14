@@ -17,7 +17,7 @@ public class PowerMain {
 
         System.out.println("POWER RESULT USING BRUTEFORCE: ");
         for (Power p : png) {
-            System.out.println(p.baseNumber + "^" + p.exponent + ": " + p.PowerBF(p.baseNumber, p.exponent));
+            System.out.println(p.baseNumber + "^" + p.exponent + ": " + p.PowerBF());
         }
         System.out.println("POWER RESULT USING DIVIDE AND CONQUER");
         for (Power p : png) {
