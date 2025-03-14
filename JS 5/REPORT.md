@@ -3,7 +3,7 @@
 | NIM |  244107020140|
 | Nama |  Muhammad Rizki |
 | Kelas | TI - 1I |
-| Repository | [link] (https://github.com/ukakooo/2ndSemester-PraktALSD) |
+| Repository | [link] (https://github.com/emrizky1/2ndSemester) |
 
 # Labs #1 Calculating Factorial Using Brute Force and Divide and Conquer Algorithms
 
