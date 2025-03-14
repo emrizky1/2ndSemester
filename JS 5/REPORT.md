@@ -28,7 +28,9 @@ The solution can be seen in Power.java and PowerMain.java, the screenshot of the
 **Answers**
 1. PowerBF() uses iterative approach where n multiplies by itself for e times. PowerDC() uses divide and conquer approach where it breaks problem into small parts, it then combines the result by multiplying n.
 2. The relevant part can be seen below:
+
 ![ Screenshot ](img/4.png)
+
 3. Yes, it can be implemented without parameters. Just use the initial variables name like image below.
 ![ Screenshot ](img/5.png)
 ![ SCreenshot ](img/6.png)
