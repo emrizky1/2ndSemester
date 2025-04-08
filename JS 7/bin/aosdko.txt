@@ -1,0 +1,9 @@
+        System.out.println("__________________");
+        System.out.println("__________________");
+        System.out.print("Search student by NIM: ");
+        int seach = s.nextInt();
+        System.out.println("Using sequential search");
+        int position = data.findSeqSearch(seach);
+
+        data.showPosition(seach, position);
+        data.showData(seach, position);
