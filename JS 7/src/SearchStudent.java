@@ -2,6 +2,11 @@ public class SearchStudent {
     Students[] listStd = new Students[5];
     int idx;
 
+    public SearchStudent(int size) {
+        listStd = new Students[size];
+        idx = 0;
+    }
+
     public void add(Students std) {
         if (idx < listStd.length) {
             listStd[idx] = std;
@@ -54,7 +59,7 @@ public class SearchStudent {
             mid = (left+right) / 2;
             if (search == listStd[mid].nim) {
                 return (mid);
-            } else if (listStd[mid].nim > search) {
+            } else if (listStd[mid].nim < search) {
                 return findBinarySearch(search, left, mid - 1);
             } else {
                 return findBinarySearch(search, mid + 1, right);
