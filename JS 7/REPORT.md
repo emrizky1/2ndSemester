@@ -60,3 +60,11 @@ The solution can be seen in MergeSort.java and SortMain.java, the screenshot of 
 
 ![ Screenshot ](img/11.png)
 
+# Assignment
+
+## Result
+The solution can be seen in Lecturer20.java, LecturerData20.java, and LecurerDemo20.java, the screenshot of the result can be seen below
+
+![ Screenshot ](img/12.png)
+
+![ Screenshot ](img/13.png)

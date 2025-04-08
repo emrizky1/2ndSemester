@@ -45,6 +45,8 @@ public class LecturerDemo20 {
         System.out.println("Sorted lecturer list (age, descending) by using insertion sort:");
         lecturerData.print();
 
+        lecturerData.bubbleSort();
+
         System.out.println("__________________");
         System.out.println("__________________");
         System.out.print("Search lecturer by Lecturer's name: ");
@@ -54,5 +56,14 @@ public class LecturerDemo20 {
 
         lecturerData.showPosition(search, position);
         lecturerData.showData(search, position);
+
+        System.out.print("Search lecturer by Lecturer's age: ");
+        int searchl = sc.nextInt();
+        System.out.println("Using binary search");
+        int positionl = lecturerData.findBinarySearch(searchl, 0, sInput - 1);
+
+        lecturerData.showPosition(search, positionl);
+        lecturerData.showData(search, positionl);
+
     }
 }

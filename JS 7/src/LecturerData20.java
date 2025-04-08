@@ -65,13 +65,48 @@ public class LecturerData20 {
 
     public int findSeqSearch(String search) {
         int position = -1;
+        int check = 0;
         for (int i = 0; i < lecturerData.length; i++) {
             if (lecturerData[i].name.equalsIgnoreCase(search)) {
-                position = i;
-                break;
+                    position = i;
+                    check++;
+                    break;
             }
         }
+        if (check > 1) {
+            System.out.println("Multiple result detected");
+        }
+
         return position;
+    }
+
+    public int findBinarySearch(int sAge, int left, int right) {
+        if (right >= left) {
+            int mid = (left + right) / 2;
+
+            if (lecturerData[mid].age == sAge) {
+                int count = 1;
+                int tempLeft = mid - 1;
+                while (tempLeft >= 0 && lecturerData[tempLeft].age == sAge) {
+                    count++;
+                    tempLeft--;
+                }
+                int tempRight = mid + 1;
+                while (tempRight < idx && lecturerData[tempRight].age == sAge) {
+                    count++;
+                    tempRight++;
+                }
+                if (count > 1) {
+                    System.out.println("Warning: Multiple lecturers found with the age " + sAge + ".");
+                }
+                return mid;
+            } else if (lecturerData[mid].age > sAge) {
+                return findBinarySearch(sAge, left, mid - 1);
+            } else {
+                return findBinarySearch(sAge, mid + 1, right);
+            }
+        }
+        return -1;
     }
 
     public void showPosition(String x, int pos) {
