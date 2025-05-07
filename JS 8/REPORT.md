@@ -5,7 +5,7 @@
 | Kelas | TI - 1I |
 | Repository | [link] (https://github.com/emrizky1/2ndSemester) |
 
-# Lab 4 Stack
+# Lab 1 Stack
 
 ## 2.1 Result – Stack for Student Assignment Submission
 
