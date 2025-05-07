@@ -57,6 +57,19 @@ public class StudentAssignmentStack20 {
         }
     }
 
+    public Student20 bottom() {
+        if(!isEmpty()) {
+            return stack[0];
+        } else {
+            System.out.println("Tidak ada data di stack!");
+            return null;
+        }
+    }
+
+    public int count() {
+        return top + 1;
+    }
+
     public void print() {
         for(int i = 0; i <= top; i++) {
             System.out.println(stack[i].nim + "\t" + stack[i].name + "\t" + stack[i].className);

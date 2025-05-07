@@ -39,7 +39,11 @@ public class ExcuseLetterStack20 {
 
     ExcuseLetter20 peek() {
         if (!isEmpty()) {
-            return stack[top];
+            ExcuseLetter20 letter = stack[top];
+            String type = (letter.typeOfExcuse == 'S' || letter.typeOfExcuse == 's') ? "Sick" : "Other";
+            System.out.println("Latest letter from: " + letter.name);
+            System.out.println("Type of excuse: " + type);
+            return letter;
         } else {
             System.out.println("No letters submitted yet.");
             return null;

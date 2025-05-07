@@ -19,7 +19,7 @@ public class ExcuseLetterDemo20 {
 
             switch (choice) {
                 case 1:
-                    System.out.print("ID: ");
+                    System.out.print("Student ID: ");
                     String id = scan.nextLine();
                     System.out.print("Name: ");
                     String name = scan.nextLine();
@@ -42,9 +42,6 @@ public class ExcuseLetterDemo20 {
                     break;
                 case 3:
                     ExcuseLetter20 top = stack.peek();
-                    if (top != null) {
-                        System.out.println("Latest letter from: " + top.name);
-                    }
                     break;
                 case 4:
                     System.out.print("Enter name to search: ");
