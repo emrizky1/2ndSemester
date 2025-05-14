@@ -40,5 +40,76 @@ The screenshot of the result can be seen below:
 
 6. The snippet can be seen in `Enqueue()` inside `Queue20.java` specifically the else statement where it print "Queue is full!!!"
 
-7. I added `System.exit(1)` inside `Enqueue()` and `Dequeue()` methods, specifically at the else statement. System.exit(1) function is to stop the program and (1) means abnormal stop / termination.
+7. I added `System.exit(1)` inside `Enqueue()` and `Dequeue()` methods, specifically at the else statement. `System.exit(1)` function is to stop the program and (1) means abnormal stop / termination.
 
+## 2.2 Result -- Academic Service Queue
+
+The solution can be seen in
+- `Student.java`
+- `StudentQueue.java`
+- `StidemtQueueMain.java`
+
+The screenshot of the result can be seen below:
+
+![ Screenshot ](img/6.png)
+
+![ Screenshot ](img/7.png)
+
+![ Screenshot ](img/8.png)
+
+![ Screenshot ](img/9.png)
+
+![ Screenshot ](img/10.png)
+
+![ Screenshot ](img/11.png)
+
+![ Screenshot ](img/12png.png)
+
+![ Screenshot ](img/13.png)
+
+![ Screenshot ](img/14.png)
+
+![ Screenshot ](img/15.png)
+
+![ Screenshot ](img/16.png)
+
+![ Screenshot ](img/17.png)
+
+## 2.2.3 Questions
+**Answers**
+1. Because Queue uses int[] to store primitive integer values, while StudentQueue uses Student[] to store student objects. This change is important because Student objects contain multiple attributes (NIM, name, etc.) which can't be represented with a single integer.
+
+2. n StudentQueue, enqueue() accepts a Student object and stores it in the array, and dequeue() returns a Student object. In contrast, the Queue class works with integers. The logic is mostly the same, but the data type and object handling differ.
+
+3. Because in StudentQueue, front is initialized to 0 to avoid errors when accessing data[front]. If front is set to -1 like in the basic Queue class, it would cause an ArrayIndexOutOfBoundsException when trying to access data[-1].
+
+4. I added a viewRear() method inside StudentQueue.java. This method is used to display the last/rear student in the queue. I also added a new option in the menu inside StudentQueueMain.java labeled “6. Check rear of the queue,” so that the method can be executed from the main menu.
+
+---
+
+# Assignment 
+
+The solution can be seen in:
+`Student.java`
+`Queue.java`
+`queueMain.java`
+
+The screenshot of the result can be seen below:
+
+![ Screenshot ](img/18.png)
+
+![ Screenshot ](img/19.png)
+
+![ Screenshot ](img/20.png)
+
+![ Screenshot ](img/21.png)
+
+![ Screenshot ](img/22.png)
+
+![ Screenshot ](img/23.png)
+
+![ Screenshot ](img/24.png)
+
+![ Screenshot ](img/25.png)
+
+![ Screenshot ](img/26.png)
