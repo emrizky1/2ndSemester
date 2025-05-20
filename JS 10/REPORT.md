@@ -7,7 +7,7 @@
 
 # Lab 12 Queue
 
-## 2.1 Result -- Academic Service Queue (Linked List-Based)
+## 2.1 Result -- Implementing Single Linked List
 
 The solution can be seen in:
 - `Student.java`
@@ -32,7 +32,7 @@ The screenshot of the result can be seen below:
 
 ---
 
-## 2.2 Result -- Accessing and Deleting in Linked List
+## 2.2 Result -- Accessing Element in Single Linked List
 
 The continuation of the solution is in:
 - `Main.java`
