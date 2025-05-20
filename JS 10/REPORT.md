@@ -5,7 +5,7 @@
 | Kelas | TI - 1I |
 | Repository | [link] (https://github.com/emrizky1/2ndSemester) |
 
-# Lab 12 Queue
+# Lab 12 Linked List
 
 ## 2.1 Result -- Implementing Single Linked List
 
