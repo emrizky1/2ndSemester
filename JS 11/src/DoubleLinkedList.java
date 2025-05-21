@@ -158,64 +158,59 @@ public class DoubleLinkedList {
         }
     }
 
-    void getFirst() {
+    Student getFirst() {
         if(!isEmpty()) {
-            head.data.print();
+            return head.data;
         } else{
-            System.out.println("Double linked list is empty!");
+            return null;
         }
     }
 
-    void getLast() {
+    Student getLast() {
         if(!isEmpty()) {
-            tail.data.print();
+            return tail.data;
         } else{
-            System.out.println("Double linked list is empty!");
+            return null;
         }
     }
 
-    void getIndex(String key) {
+    Student getIndex(String key) {
         if(!isEmpty()) {
             Node temp = head;
             while (temp != null) {
                 if(temp.data.nim.equalsIgnoreCase(key)) {
-                    temp.data.print();
-                    break;
+                    return temp.data;
                 }
                 temp = temp.next;
             }
-        } else{
-            System.out.println("No data.");
         }
+            return null;
     }
 
-    void getSize(){
+    int getSize(){
         int size = 0;
         Node temp = head;
         while (temp != null){
             size++;
             temp = temp.next;
         }
-        System.out.println("Size: " + size);
+        return size;
     }
 
-    void indexOf(String key) {
+    int indexOf(String key) {
         Node temp = head;
         if(isEmpty()) {
-            System.out.println("Double Linked list is empty");
+            return -1;
         } else{
             int idx = 0;
             while(temp != null) {
                 if(temp.data.nim.equalsIgnoreCase(key)) {
-                    System.out.println("Nim " + key + " is at index: " + idx);
-                    break;
+                    return idx;
                 }
                 idx++;
                 temp = temp.next;
             }
         }
-        if(temp == null) {
-            System.out.println("Data with nim " + key + " does not exist.");
-        }
+            return -1;
     }
 }
