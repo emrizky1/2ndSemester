@@ -63,18 +63,24 @@ The screenshot of the result can be seen below:
 
 2. Ensures that when there is only one node, removing it correctly resets the list to empty.
 
-3. Without the `tail` attribute, we’d need to traverse from the head to find the second-to-last node every time we remove the last node — making the operation slower.
+3. Without the `tail` attribute, we’d need to traverse from the head to find the second-to-last node every time we remove the last node.
 
 4. To prevents errors from trying to access or remove from an empty list.
 
-5. For index 0, it calls `removeFirst()` to remove the head. If the node is the tail, it calls `removeLast()`. These ensure proper edge handling.
+5. For index 0, it calls `removeFirst()` to remove the head. If the node is the tail, it calls `removeLast()`. 
 
-6. It updates the `next` reference of the previous node and the `prev` reference of the next node to unlink the current node safely from the middle.
+6. It updates the `next` reference of the previous removed node and the `prev` reference of the next removed node to unlink the current node safely from the middle.
 
-7. To handle invalid indices, you can modify `remove(int index)` like this:
+7. To handle invalid indices, we can modify `remove(int index)` like this:
 
 ```java
-if(index < 0 || index >= getSize()) {
+int count = 0;
+Node temp = head;
+while (temp != null) {
+    count++;
+    temp = temp.next;
+}
+if (index < 0 || index >= count) {
     System.out.println("Invalid index!");
     return;
 }
@@ -91,12 +97,12 @@ The solution can be seen in:
 
 The screenshot of the result can be seen below:
 
-![ Screenshot ](img/9.png)
+![ Screenshot ](img/3.png)
 
-![ Screenshot ](img/10.png)
+![ Screenshot ](img/4.png)
 
-![ Screenshot ](img/11.png)
+![ Screenshot ](img/5.png)
 
-![ Screenshot ](img/12.png)
+![ Screenshot ](img/6.png)
 
-![ Screenshot ](img/13.png)
+![ Screenshot ](img/7.png)
