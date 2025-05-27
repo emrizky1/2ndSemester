@@ -184,7 +184,7 @@ public class DoubleLinkedList {
                 temp = temp.next;
             }
         }
-            return null;
+        return null;
     }
 
     int getSize(){
@@ -211,6 +211,6 @@ public class DoubleLinkedList {
                 temp = temp.next;
             }
         }
-            return -1;
+        return -1;
     }
 }
